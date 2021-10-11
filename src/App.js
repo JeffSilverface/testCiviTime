@@ -1,8 +1,13 @@
-import React from 'react'
-import './App.css';
+import React from "react";
+import { Window } from "./components";
+import "./App.css";
 
 const App = () => {
-    return <div id="temp-style"> Develop your test here </div>
-}
+  return (
+    <div className="container">
+      <Window />
+    </div>
+  );
+};
 
 export default App;
