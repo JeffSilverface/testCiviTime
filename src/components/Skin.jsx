@@ -7,12 +7,16 @@ import DarkSkin from "../assets/color-533724.svg";
 
 export const Skin = () => {
   return (
-    <div>
-      <img src={Face} alt="Visage" />
-      <img src={ClearSkin} alt="Peau Claire" />
-      <img src={TannedSkin} alt="Peau Bronzée" />
-      <img src={SunBurnedSkin} alt="Peau Coup De Soleil" />
-      <img src={DarkSkin} alt="Peau Sombre" />
+    <div className="colors-pickup">
+      <img className="sketches" src={Face} alt="Visage" />
+      <img className="color-spots" src={ClearSkin} alt="Peau Claire" />
+      <img
+        className="color-spots"
+        src={SunBurnedSkin}
+        alt="Peau Coup De Soleil"
+      />
+      <img className="color-spots" src={TannedSkin} alt="Peau Bronzée" />
+      <img className="color-spots" src={DarkSkin} alt="Peau Sombre" />
     </div>
   );
 };

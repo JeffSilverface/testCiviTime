@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Avatar, Skin } from "./index";
+import { Header, Avatar, Skin, Tshirt, Button } from "./index";
 
 export const Window = () => {
   return (
@@ -8,6 +8,8 @@ export const Window = () => {
       <Avatar />
       <hr className="dash" />
       <Skin />
+      <Tshirt />
+      <Button />
     </div>
   );
 };
