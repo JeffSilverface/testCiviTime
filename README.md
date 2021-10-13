@@ -1,11 +1,11 @@
 # Test technique intégration civitime
 
-Lancez le projet avec  `npm install && npm run start.`
-## Objectif
+Lancez le projet avec `npm install && npm run start.`
 
-Vous devez réaliser une intégration html / css la plus fidèle possible aux mockups situés dans `src/mockups`.
-L'intégration doit être responsive
+## Résultat
 
-## Rendu
+Bonjour,
 
-Créez un repo publique sur github / gitlab et envoyez le lien par mail à pierre-alexandre.caillat@civitime.com
+Voici le résultat de mon exercice, je vous remercie par avance d'avoir pris le temps de lire mon code.
+
+Bonne journée.
