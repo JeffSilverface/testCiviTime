@@ -1,4 +1,4 @@
-/* generic *********************************************************************************************************************************/
+/* generic */
 
 @font-face {
   font-family: "SCP";
@@ -12,6 +12,7 @@
   font-size: 1rem;
 }
 
+/* Container window size and location */
 .container {
   background-color: #dde1e7;
   width: 100%;
@@ -23,12 +24,13 @@
 }
 
 .window {
-  width: 590px;
-  height: 480px;
+  width: 585px;
+  height: 475px;
   border: 2px solid #7600d5;
   border-radius: 5px;
 }
 
+/* header */
 .header {
   width: 100%;
   height: 2rem;
@@ -39,6 +41,7 @@
   justify-content: center;
 }
 
+/* Avatars placement  */
 .avatar-picture {
   width: 8rem;
   height: 8rem;
@@ -62,6 +65,11 @@
   margin: 0.6rem 1.2rem 2rem 1.2rem;
 }
 
+.avatars p {
+  font-size: 0.9rem;
+}
+
+/* separation line */
 .dash {
   border-style: none;
   width: 240px;
@@ -69,6 +77,7 @@
   background-color: #95979a;
 }
 
+/* color spots alignement */
 .colors-pickup {
   display: flex;
   justify-content: center;
@@ -77,21 +86,22 @@
 }
 
 .color-spots {
-  height: 45px;
+  height: 2.8rem;
 }
 
 .sketches {
-  width: 34px;
-  margin-right: 12px;
+  width: 2.1rem;
+  margin-right: 0.75rem;
 }
 
+/* button management */
 .button {
   border: none;
   background-color: #1b39e2;
   color: white;
-  width: 6.2rem;
-  height: 2rem;
-  border-radius: 1rem;
+  width: 6.4rem;
+  height: 2.2rem;
+  border-radius: 1.1rem;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   margin: 12px;
 }
@@ -102,10 +112,53 @@
   align-items: center;
 }
 
-
-@media only screen and (max-width: 768px) {
+/*Media queries for responsiveness */
+@media only screen and (max-width: 480px) {
   .window {
-    width: 390px;
-    height: 600px;
+    width: 400px;
+    height: 605px;
+  }
+
+  .header {
+    height: 2.4rem;
+    font-size: 1.3rem;
+  }
+
+  .avatar-picture {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .avatars img {
+    margin: 1.1rem 1.2rem 2.5rem 1.2rem;
+  }
+
+  .avatars p {
+    font-size: 1.2rem;
+    letter-spacing: -0.1rem;
+  }
+
+  .dash {
+    width: 304px;
+  }
+
+  .colors-pickup {
+    margin: 1rem 1rem 1.5rem 1rem;
+  }
+
+  .color-spots {
+    height: 3.7rem;
+  }
+
+  .sketches {
+    width: 2.8rem;
+  }
+
+  /* button management */
+  .button {
+    width: 7.2rem;
+    height: 2.7rem;
+    border-radius: 1.4rem;
+    font-size: 1.2rem;
   }
 }
